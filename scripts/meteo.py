@@ -66,7 +66,6 @@ def save_to_csv(df):
     df.to_csv(filepath, index=False, mode='w')
     print(f"Données sauvegardées dans {filepath}")
 
-
 def main():
     # ETL Process
     print("Début de l'extraction des données météo...")
