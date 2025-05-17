@@ -51,7 +51,6 @@ def transform_data(weather_data):
     df = pd.DataFrame([transformed_data])
     return df
 
-
 def save_to_csv(df):
     """Sauvegarde les données dans un fichier CSV"""
     if df is None or df.empty:
