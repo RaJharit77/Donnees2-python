@@ -3,7 +3,8 @@ def success(result):
         print("Congratulations!")
     else:
         print("It's a lesson to be learned and an opportunity" \
-        " to rise again and keep fighting without giving up.")
+        " to rise again and " \
+        "keep fighting without giving up.")
 
 success("success")
 success("échec")
