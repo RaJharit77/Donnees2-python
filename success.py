@@ -8,3 +8,4 @@ def success(result):
 
 success("success")
 success("échec")
+success("Success")
