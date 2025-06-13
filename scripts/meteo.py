@@ -4,11 +4,11 @@ from datetime import datetime
 import os
 
 # Configuration
-API_KEY = "1aeb4aad4fd664aff93ff8b9aa0284d0"  # Remplacez par votre clé API OpenWeather
+API_KEY = "API_KEY"
 CITY = "Antananarivo"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 UNITS = "metric"
-OUTPUT_DIR = "data"  # Dossier où sauvegarder les fichiers CSV
+OUTPUT_DIR = "data"
 
 # Créer le dossier de sortie s'il n'existe pas
 os.makedirs(OUTPUT_DIR, exist_ok=True)
